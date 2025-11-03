@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tranv\\ExampleMap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8761AA-F3FC-47A8-8DEF-F558640C217F}|Assembly-CSharp.csproj|c:\\users\\tranv\\examplemap\\assets\\map\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8761AA-F3FC-47A8-8DEF-F558640C217F}|Assembly-CSharp.csproj|solutionrelative:assets\\map\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8761AA-F3FC-47A8-8DEF-F558640C217F}|Assembly-CSharp.csproj|C:\\Users\\tranv\\ExampleMap\\assets\\map\\scripts\\pathlines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8761AA-F3FC-47A8-8DEF-F558640C217F}|Assembly-CSharp.csproj|solutionrelative:assets\\map\\scripts\\pathlines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8761AA-F3FC-47A8-8DEF-F558640C217F}|Assembly-CSharp.csproj|C:\\Users\\tranv\\ExampleMap\\assets\\map\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8761AA-F3FC-47A8-8DEF-F558640C217F}|Assembly-CSharp.csproj|solutionrelative:assets\\map\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8761AA-F3FC-47A8-8DEF-F558640C217F}|Assembly-CSharp.csproj|C:\\Users\\tranv\\ExampleMap\\assets\\map\\scripts\\animate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8761AA-F3FC-47A8-8DEF-F558640C217F}|Assembly-CSharp.csproj|solutionrelative:assets\\map\\scripts\\animate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PathLines.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\ExampleMap\\Assets\\Map\\Scripts\\PathLines.cs",
+              "RelativeDocumentMoniker": "Assets\\Map\\Scripts\\PathLines.cs",
+              "ToolTip": "C:\\Users\\tranv\\ExampleMap\\Assets\\Map\\Scripts\\PathLines.cs",
+              "RelativeToolTip": "Assets\\Map\\Scripts\\PathLines.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:36:02.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Animate.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\ExampleMap\\Assets\\Map\\Scripts\\Animate.cs",
+              "RelativeDocumentMoniker": "Assets\\Map\\Scripts\\Animate.cs",
+              "ToolTip": "C:\\Users\\tranv\\ExampleMap\\Assets\\Map\\Scripts\\Animate.cs",
+              "RelativeToolTip": "Assets\\Map\\Scripts\\Animate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:17:48.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\ExampleMap\\Assets\\Map\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Map\\Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Users\\tranv\\ExampleMap\\Assets\\Map\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Map\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAKAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:17:25.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Spawner.cs",
+              "DocumentMoniker": "C:\\Users\\tranv\\ExampleMap\\Assets\\Map\\Scripts\\Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Map\\Scripts\\Spawner.cs",
+              "ToolTip": "C:\\Users\\tranv\\ExampleMap\\Assets\\Map\\Scripts\\Spawner.cs",
+              "RelativeToolTip": "Assets\\Map\\Scripts\\Spawner.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:17:02.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
