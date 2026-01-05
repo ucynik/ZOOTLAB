@@ -45,7 +45,7 @@ Open the provided `ZOOTLAB.unitypackage` in Unity. You will be greeted by the `.
 The Hierarchy contains multiple GameObjects, each serving a purpose:
 - `ExampleMap`: The map asset.
 - `Enemies`: The enemies to be spawned in. They sit within the scene so that the enemy spawner may clone these GameObjects.
-- `Utility`: The camera and lights. The lights here are for illuminating `ExampleMap`; modify these to best fit your map.
+- `Utility`: The camera, lights, and audio utility. The lights here are for illuminating `ExampleMap`; modify these to best fit your map. Within `Utility` is `Default`, which contains the camera as well as several post-processing components.
 - `Waypoints`: The paths and spawners for enemies.
 - Everything else in the example scenes are incursion points, objective points, and an active Originium tile.
 
@@ -105,7 +105,7 @@ To set up pathing for your enemy, simply fill out the appropriate attributes acc
 
 # You're Done!
 
-Hopefully you were able to cram all that into your head. Your map should have basic functionality at this point and you can view it play out by pressing the play button at the top middle of the view window.
+Hopefully you were able to cram all that into your head. Your map should have basic functionality at this point and you can view it play out by pressing the play button at the top middle of the view window. To record, the Recorder package for Unity works quite nicely.
 
 This guide served as a basic set of instructions to get a working map down, and will be expanded as more features are implemented. As for specific instructions for replicating Arknights' maps' aesthetic effects, perhaps I will make a guide for that in the future. Thank you for giving ZOOTLAB a try. 
 
