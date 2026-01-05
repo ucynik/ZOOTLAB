@@ -52,7 +52,9 @@ The Hierarchy contains multiple GameObjects, each serving a purpose:
 Drag your map into the scene, and set the transform to `<0,0,0>` and the rotation to match that of `ExampleMap` so that the ground points up in the `Y Axis`. You may delete or hide `ExampleMap` in the Hierarchy.
 If all goes well, switching to the `Game` view should show your map from the perspective of the `Default` camera, mimicking the battle view in Arknights.
 
-### Setting Up Enemies
+The `Utility` directory under `.\Assets` contain various assets that may be useful, such as stage features and status icons. Objective and incursion points can be found here, as well as holes and active Originium tiles. Drag these into the scene and position them where you see fit in order to use them.
+
+### Setting Up Enemy Assets Pt. 1
 
 Arknights' enemy models are Spine2D models that consist of a texture (`*.png`), Skeleton (`*.skel`), and Atlas (`*.atlas`) file. These files can be found within the game files but for a simpler method, I recommend using the [PRTS Wiki](https://prts.wiki/w/%E9%A6%96%E9%A1%B5).
 
@@ -66,7 +68,51 @@ Before importing these to Unity, you will need to:
   
 Remember to **append** these file extensions to the existing one, not replace them with.
 
-In Unity, enter the `Enemies` directory and create a folder to contain the three files. Drag the three files into the folder you just created and the enemy's Spine2D model should generate, textured and all.
+In Unity, enter the `Enemies` directory and create a folder to contain the three files. Drag the three files into the folder you just created and the enemy's Spine2D model should generate the following files:
+- A `*.asset` SkeletonData file.
+- A `*.mat` material file.
+
+### Setting Up Enemy Assets Pt. 2
+
+In Unity, open `Enemies` in the Hierarchy and find an arbitrary enemy asset. The Inspector will show a `SkeletonAnimation` component attached to the asset. In the `Mesh Renderer` apply your enemy's `material` here (you can drag and drop), then apply your enemy's `SkeletonData` in their respective attributes. Press `Reload` under the `SkeletonAnimation` component and your enemy's model should appear.
+
+Make sure to set animations in the `Animate` component if applicable. Animations for a model can be viewed in the `Animation Name` dropdown under the `SkeletonAnimation` component. If your enemy will use an animation, it must be set within teh `Animate` componenty or else it will not function and throw an error.
+
+To preview the enemy in the Scene tab, double click a few times to go to your enemy in the world, and enable their `Mesh Renderer` component to view them. Under the `Transform`, you may edit the scale to a size you think is appropriate (you literally have to eye it because the method I use to find exact enemy scales doesn't work anymore). The scale of enemies typically lies on a rage of `0.2 to 0.35`.
+
+Familiarize yourself with the other components on the enemy asset. Other than that, you are finished with this step!
+
+### Setting up Waypoints
+
+Thankfully, pathing is much simpler than it seems to be.
+
+Within `Waypoints` in the Hierarchy you will find several GameObjects with names corresponding to single example enemies. Each GameObject contains several children which are the individual points an enemy can travel to.
+
+Clicking on the parent GameObject will reveal a `Spawner` component attached to it which contains the following attributes:
+- `Spawn Point`: The transform of the spawn point of an enemy, typically derived from the parent GameObject.
+- `Enemy`: The enemy asset to be spawned.
+- `Hui/Ming`: Hui/Ming attributes if needed.
+- `Spawn Times`: The points in time, in seconds, of which the `Enemy` will be spawned.
+- `Waypoints`: The waypoints, in order, that an instance of the `Enemy` will travel to. Each waypoints contain the following attributes:
+  - `WP Transform`: The transform of the waypoint, derived from the Waypoint GameObject.
+  - `Stop`: The duration, in seconds, the enemy will rest for upon reaching this waypoint.
+  - `Phase`: A flag that tells an enemy to transition phases upon reaching this waypoint.
+  - `Stairs`: A flag that tells an enemy to teleport to the next waypoint.
+  - `Stairs Duration`: The duration, in seconds, the enemy will wait before appearing at the next waypoint.
+  - `New 'x'`: A new animation the enemy will use after reaching this waypoint. If an enemy has new animations after transitioning phases, set them in the same waypoint that `Phase` is ticked.
+
+To set up pathing for your enemy, simply fill out the appropriate attributes according to your needs. If done correctly, your enemy will travel along the paths you set, and disappear when they reach your endpoints.
+
+# You're Done!
+
+Hopefully you were able to cram all that into your head. Your map should have basic functionality at this point and you can view it play out by pressing the play button at the top middle of the view window.
+
+This guide served as a basic set of instructions to get a working map down, and will be expanded as more features are implemented. As for specific instructions for replicating Arknights' maps' aesthetic effects, perhaps I will make a guide for that in the future. Thank you for giving ZOOTLAB a try. 
+
+
+
+
+
 
 
 
