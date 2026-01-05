@@ -16,4 +16,5 @@ ZOOTLAB is a fan-made, unofficial hobby project for Arknights. This is not affil
 Arknight's assets are stored within *.ab files. To access these files, you must root an Android emulator.
 Using LDPlayer9, the game files for the global version of Arknights are located under: ./storage/emulated/0/Android/data/com.YoStarEN.Arknights/.
 
-Within the folders you will find *.ab files which can be extracted using the aforementioned decompression tools. An important thing to note: post-release of Chapter 15, HG uses LZHAM compression for their files, which require decompression tools that support LZHAM. If you are working with a copy of AK files pre-Chapter 15, you may use other programs, such as the normal version of AssetStudio: https://github.com/Perfare/AssetStudio 
+Within the folders you will find *.ab files which can be extracted using the aforementioned decompression tools. 
+An important thing to note: post-release of Chapter 15, HG uses LZHAM compression for their files, which require decompression tools that support LZHAM. If you are working with a copy of AK files pre-Chapter 15, you may use other programs, such as the normal version of AssetStudio: https://github.com/Perfare/AssetStudio 
