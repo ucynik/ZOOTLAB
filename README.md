@@ -32,7 +32,7 @@ Within `.\com.YoStarEN.Arknights\files\AB\Android\scenes` are folders containing
 - `.\scenes\activities` stores side story and vignette event stages, named after their order of appearance
 - `.\scenes\obts` stores all other stages
 
-Within `.\com.YoStarEN.Arknights\files\AB\Android\arts\maps` are folders containing textures for various tile sets.
+Within `.\com.YoStarEN.Arknights\files\AB\Android\arts\maps` are folders containing textures for various tile sets. Within `res.ab` are multple texture files corresponding to the albedo, metallic, normal, and emission attributes of a material.
 
 Upon finding your desired stage, extract the scene and you should find an `*.obj` file, typically named `Combined Mesh (root_ scene).obj`. You will then need to import this into your 3D modeling program or Unity. The map creation process using the scene objects should be fairly straightforward, consisting of copy and paste and transformation operations.
 
