@@ -3,7 +3,7 @@ ZOOTLAB is a Unity suite for creating and simulating Arknights maps. Currently, 
 
 ZOOTLAB is a fan-made, unofficial hobby project for Arknights. This is not affiliated with Hypergryph or Yostar.
 
-[Discord](https://discord.gg/nUepWgX35W)
+[Discord](https://discord.gg/nUepWgX35W) for support, feedback, and assets.
 
 # Requirements
 - Unity 2021.3.29f1. Newer versions may be compatible, but it remains untested.
