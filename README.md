@@ -15,8 +15,11 @@ ZOOTLAB is a fan-made, unofficial hobby project for Arknights. This is not affil
 # Getting Started
 
 ## Retrieving Assets
-Arknight's assets are stored within `*.ab` files. To access these files, you must root an Android emulator.
-Using LDPlayer9, the game files for the global version of Arknights are located under: `.\storage\emulated\0\Android\data\com.YoStarEN.Arknights`.
+Arknight's assets are stored within `*.ab` files. ~~To access these files, you must root an Android emulator.
+Using LDPlayer9, the game files for the global version of Arknights are located under: `.\storage\emulated\0\Android\data\com.YoStarEN.Arknights`.~~
+
+You can use [this tool (credit to KirillAldashkin)](https://github.com/KirillAldashkin/ArknightsDownloader) to download the game assets.
+The default directory of the game assets should look something like this: `.\ArknightsDownloader-main\ArknightsDownloader-main\bin\Debug\net9.0\data\assets\cn\26-01-06-09-38-59_ea48d2\resources`
 
 Within the folders you will find `*.ab` files which can be extracted using the aforementioned decompression tools. 
 An important thing to note: post-release of Chapter 15, HG uses LZHAM compression for their files, which require decompression tools that support LZHAM. If you are working with a copy of AK files pre-Chapter 15, you may use other programs, such as the normal version of [AssetStudio](https://github.com/Perfare/AssetStudio ).
@@ -28,7 +31,7 @@ For this section, you will need a 3D modeling program that works with `*.obj` or
 
 My personal workflow takes a map(s) and edits it to my liking within a 3D modeling program, there is no singular way to approach map creation. Using a 3D modeling program is optional if you are more comfortable assembling your map in Unity. I choose to use Blender for my own convenience.
 
-Within `.\com.YoStarEN.Arknights\files\AB\Android\scenes` are folders containing 'scene' assets which are essentially the map assets that battles take place on.
+Within `.\scenes` are folders containing 'scene' assets which are essentially the map assets that battles take place on.
 - `.\scenes\activities` stores side story and vignette event stages, named after their order of appearance
 - `.\scenes\obts` stores all other stages
 
