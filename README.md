@@ -9,7 +9,7 @@ ZOOTLAB is a fan-made, unofficial hobby project for Arknights. This is not affil
 - Unity 2021.3.29f1. Newer versions may be compatible, but it remains untested.
 - Blender or any 3D modeling software that can work with `*.obj` and `*.fbx` files, as well as basic knowledge utilizing those programs.
 - A program (that supports LZHAM decompression) to unpack `*.dat` or `*.ab` files if necessary:
-  - [ArkUnpacker](https://github.com/isHarryh/Ark-Unpacker)
+  - [ArkUnpacker (I personally use this one)](https://github.com/isHarryh/Ark-Unpacker)
   - [AssetStudioGUI (Arknights Modification)](https://github.com/aelurum/AssetStudio/releases/tag/ak-v1.2.3 )
 
 # Getting Started
