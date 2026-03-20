@@ -5,6 +5,8 @@ ZOOTLAB is a fan-made, unofficial hobby project for Arknights. This is not affil
 
 [Discord](https://discord.gg/nUepWgX35W) for support, feedback, and assets.
 
+[VIDEO TUTORIAL](https://youtu.be/_bB7G5i43Q4?si=PtZYGktoQPb1L-GO)
+
 # Requirements
 - Unity 2021.3.29f1. Newer versions may be compatible, but it remains untested.
 - Blender or any 3D modeling software that can work with `*.obj` and `*.fbx` files, as well as basic knowledge utilizing those programs.
@@ -37,7 +39,7 @@ Within `.\scenes` are folders containing 'scene' assets which are essentially th
 
 Within `.\com.YoStarEN.Arknights\files\AB\Android\arts\maps` are folders containing textures for various tile sets. Within `res.ab` are multple texture files corresponding to the albedo, metallic, normal, and emission attributes of a material.
 
-Upon finding your desired stage, extract the scene and you should find an `*.obj` file, typically named `Combined Mesh (root_ scene).obj`. You will then need to import this into your 3D modeling program or Unity. The map creation process using the scene objects should be fairly straightforward, consisting of copy and paste and transformation operations.
+Upon finding your desired stage, extract the scene and you should find an `*.obj` file, typically named `Combined Mesh (root_ scene).obj`. You will then need to import this into your 3D modeling program (as a binary `*.fbx*` or Unity. The map creation process using the scene objects should be fairly straightforward, consisting of copy and paste and transformation operations.
 
 I recommend enabling grid snapping if your program allows, to keep tile positions and orientation uniform. When you are finished, export your map as an `*.fbx` file and import it to Unity. It is your preference whether you apply textures to your map within Unity or Blender.
 
