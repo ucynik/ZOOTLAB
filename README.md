@@ -5,7 +5,9 @@ ZOOTLAB is a fan-made, unofficial hobby project for Arknights. This is not affil
 
 [Discord](https://discord.gg/nUepWgX35W) for support, feedback, and assets.
 
-[VIDEO TUTORIAL](https://youtu.be/_bB7G5i43Q4?si=PtZYGktoQPb1L-GO)
+[VIDEO TUTORIAL](https://youtu.be/ZRy7CNEfxSk?si=xAssytI6h0DMMlg2)
+
+THIS GUIDE IS SLIGHTLY OUTDATED USE THE VIDEO TUTORIAL AS THE MAIN REFERENCE
 
 # Requirements
 - Unity 2021.3.29f1. Newer versions may be compatible, but it remains untested.
