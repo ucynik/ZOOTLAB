@@ -26,7 +26,8 @@ You can use [this tool (credit to KirillAldashkin)](https://github.com/KirillAld
 The default directory of the game assets should look something like this: `.\ArknightsDownloader-main\ArknightsDownloader-main\bin\Debug\net9.0\data\assets\cn\26-01-06-09-38-59_ea48d2\resources`
 
 Within the folders you will find `*.ab` files which can be extracted using the aforementioned decompression tools. 
-An important thing to note: post-release of Chapter 15, HG uses LZHAM compression for their files, which require decompression tools that support LZHAM. [ArknightsStudio](https://github.com/aelurum/AssetStudio/releases/tag/ak-v1.2.3 ) is an excellent tool for this).
+An important thing to note: post-release of Chapter 15, HG uses LZHAM compression for their files, which require decompression tools that support LZHAM. 
+[ArknightsStudio](https://github.com/aelurum/AssetStudio/releases/tag/ak-v1.2.3 ) is an excellent tool for this.
 
 
 ## Creating Your First Map
