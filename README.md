@@ -39,7 +39,7 @@ Within `.\scenes` are folders containing 'scene' assets which are essentially th
 - `.\scenes\activities` stores side story and vignette event stages, named after their order of appearance
 - `.\scenes\obts` stores all other stages
 
-Within `.\com.YoStarEN.Arknights\files\AB\Android\arts\maps` are folders containing textures for various tile sets. Within `res.ab` are multple texture files corresponding to the albedo, metallic, normal, and emission attributes of a material.
+Within `.\arts\maps` are folders containing textures for various tile sets. Within `res.ab` are multple texture files corresponding to the albedo, metallic, normal, and emission attributes of a material.
 
 Upon finding your desired stage, extract the scene and you should find an `*.obj` file, typically named `Combined Mesh (root_ scene).obj`. You will then need to import this into your 3D modeling program (as a binary `*.fbx*` or Unity. The map creation process using the scene objects should be fairly straightforward, consisting of copy and paste and transformation operations.
 
@@ -85,7 +85,7 @@ In Unity, enter the `Enemies` directory and create a folder to contain the three
 
 In Unity, open `Enemies` in the Hierarchy and find an arbitrary enemy asset. The Inspector will show a `SkeletonAnimation` component attached to the asset. In the `Mesh Renderer` apply your enemy's `material` here (you can drag and drop), then apply your enemy's `SkeletonData` in their respective attributes. Press `Reload` under the `SkeletonAnimation` component and your enemy's model should appear.
 
-Make sure to set animations in the `Animate` component if applicable. Animations for a model can be viewed in the `Animation Name` dropdown under the `SkeletonAnimation` component. If your enemy will use an animation, it must be set within teh `Animate` componenty or else it will not function and throw an error.
+Make sure to set animations in the `Animate` component if applicable. Animations for a model can be viewed in the `Animation Name` dropdown under the `SkeletonAnimation` component. If your enemy will use an animation, it must be set within the `Animate` componenty or else it will not function and throw an error.
 
 To preview the enemy in the Scene tab, double click a few times to go to your enemy in the world, and enable their `Mesh Renderer` component to view them. Under the `Transform`, you may edit the scale to a size you think is appropriate (you literally have to eye it because the method I use to find exact enemy scales doesn't work anymore). The scale of enemies typically lies on a rage of `0.2 to 0.35`.
 
